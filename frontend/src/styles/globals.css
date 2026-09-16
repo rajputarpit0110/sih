@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+@layer base {
+  :root {
+    --bg-base: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-surface-elevated: #f1f5f9;
+    --bg-surface-hover: #e2e8f0;
+    --border-subtle: #e2e8f0;
+    --border-medium: #cbd5e1;
+    --border-strong: #94a3b8;
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --text-muted: #64748b;
+    --manganese-accent: #c26d3a;
+    --manganese-hover: #b45309;
+    --status-emerald: #059669;
+    --status-amber: #d97706;
+    --status-rose: #dc2626;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  html {
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8fafc;
+    color: #0f172a;
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  #root, div, p, span, a, label, li, td, th {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+    letter-spacing: -0.015em;
+  }
+
+  button, input, select, textarea, optgroup, option {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+  }
+
+  code, pre, .font-mono, [class*="font-mono"], kbd, samp {
+    font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+  }
+
+  /* Universal Accessible Focus Indicator (WCAG 2.2 AAA standard) */
+  :focus-visible {
+    outline: 2px solid #c26d3a !important;
+    outline-offset: 2px !important;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
+
+/* Precision Clean Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Professional GIS Leaflet Styling - Light Clean */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #f8fafc !important;
+  font-family: inherit;
+  cursor: crosshair;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 4px !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12) !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+.leaflet-popup-content {
+  margin: 10px 12px !important;
+  line-height: 1.4 !important;
+}
+
+/* Precision Reticle Pulse for Active Coordinate Marker */
+@keyframes reticle-pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.85;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+}
+
+.reticle-ping {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border-radius: 50%;
+  border: 1.5px solid #c26d3a;
+  animation: reticle-pulse 2.4s cubic-bezier(0.2, 0.8, 0.4, 1) infinite;
+}
+
+/* Respect prefers-reduced-motion (WCAG Guideline) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reticle-ping {
+    animation: none !important;
+  }
+}

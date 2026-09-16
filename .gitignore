@@ -22,9 +22,10 @@ __pycache__/
 *$py.class
 .ipynb_checkpoints/
 
-# OS
+# OS & Tools
 .DS_Store
 Thumbs.db
+.agents/
 
 # Large dataset files (>100MB exceeds GitHub limits)
 mlModel/data/raw/manganese_prospectivity_MP_MH_1km.csv
