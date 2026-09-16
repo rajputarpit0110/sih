@@ -1,0 +1,4100 @@
+{
+  "prospectivity_metrics": {
+    "roc_auc": 0.951,
+    "f1": 0.8242,
+    "recall": 0.8834,
+    "precision": 0.7724,
+    "accuracy": 0.8727,
+    "train_rows": 125891,
+    "test_rows": 30929,
+    "pred_rows": 435809
+  },
+  "production_metrics": {
+    "regression": {
+      "MAE": 386.3811414314038,
+      "RMSE": 751.5228479493687,
+      "R2": 0.9822841264385581
+    },
+    "classification": {
+      "accuracy": 0.8712121212121212,
+      "precision": 0.8556701030927835,
+      "recall": 0.8058252427184466,
+      "f1": 0.83,
+      "roc_auc": 0.9237170596393897
+    }
+  },
+  "mine_summary": [
+    {
+      "mine_name": "Balaghat",
+      "total_planned": 3004011.9,
+      "total_actual": 2866271.5,
+      "total_shortfall": 139552.6,
+      "shortfall_rate": 0.39,
+      "avg_achievement": 95.01
+    },
+    {
+      "mine_name": "Ukwa",
+      "total_planned": 1638552.2,
+      "total_actual": 1554983.2,
+      "total_shortfall": 85238.0,
+      "shortfall_rate": 0.48,
+      "avg_achievement": 94.44
+    },
+    {
+      "mine_name": "Kandri",
+      "total_planned": 1365460.2,
+      "total_actual": 1302487.5,
+      "total_shortfall": 63865.2,
+      "shortfall_rate": 0.42,
+      "avg_achievement": 95.0
+    },
+    {
+      "mine_name": "Tirodi",
+      "total_planned": 1354076.6,
+      "total_actual": 1294297.7,
+      "total_shortfall": 62155.0,
+      "shortfall_rate": 0.44,
+      "avg_achievement": 95.11
+    },
+    {
+      "mine_name": "Beldongri",
+      "total_planned": 1228913.7,
+      "total_actual": 1170557.3,
+      "total_shortfall": 59244.4,
+      "shortfall_rate": 0.42,
+      "avg_achievement": 94.84
+    },
+    {
+      "mine_name": "Munsar",
+      "total_planned": 1228913.7,
+      "total_actual": 1174868.3,
+      "total_shortfall": 55893.4,
+      "shortfall_rate": 0.42,
+      "avg_achievement": 95.12
+    },
+    {
+      "mine_name": "Chikla",
+      "total_planned": 1092367.9,
+      "total_actual": 1038091.5,
+      "total_shortfall": 55151.8,
+      "shortfall_rate": 0.44,
+      "avg_achievement": 94.59
+    },
+    {
+      "mine_name": "Gumgaon",
+      "total_planned": 1092367.9,
+      "total_actual": 1039482.2,
+      "total_shortfall": 53399.4,
+      "shortfall_rate": 0.43,
+      "avg_achievement": 94.71
+    },
+    {
+      "mine_name": "Sitapatore",
+      "total_planned": 947853.4,
+      "total_actual": 902197.7,
+      "total_shortfall": 46566.2,
+      "shortfall_rate": 0.39,
+      "avg_achievement": 94.63
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "total_planned": 677038.0,
+      "total_actual": 644495.2,
+      "total_shortfall": 33534.9,
+      "shortfall_rate": 0.4,
+      "avg_achievement": 94.68
+    }
+  ],
+  "yearly_data": [
+    {
+      "mine_name": "Balaghat",
+      "year": 2015,
+      "planned": 231000.0,
+      "actual": 219890.3,
+      "shortfall": 11109.7,
+      "shortfall_months": 5,
+      "avg_achievement": 94.72
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2016,
+      "planned": 238550.2,
+      "actual": 228155.8,
+      "shortfall": 10394.4,
+      "shortfall_months": 4,
+      "avg_achievement": 95.3
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2017,
+      "planned": 248371.1,
+      "actual": 239649.3,
+      "shortfall": 8721.8,
+      "shortfall_months": 3,
+      "avg_achievement": 96.31
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2018,
+      "planned": 262715.2,
+      "actual": 251917.2,
+      "shortfall": 11363.0,
+      "shortfall_months": 4,
+      "avg_achievement": 95.43
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2019,
+      "planned": 272694.6,
+      "actual": 258107.8,
+      "shortfall": 14586.8,
+      "shortfall_months": 6,
+      "avg_achievement": 94.32
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2020,
+      "planned": 235620.1,
+      "actual": 224953.5,
+      "shortfall": 11452.6,
+      "shortfall_months": 5,
+      "avg_achievement": 94.98
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2021,
+      "planned": 259072.1,
+      "actual": 246480.7,
+      "shortfall": 12591.4,
+      "shortfall_months": 6,
+      "avg_achievement": 94.76
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2022,
+      "planned": 289484.8,
+      "actual": 277553.0,
+      "shortfall": 12235.6,
+      "shortfall_months": 5,
+      "avg_achievement": 95.3
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2023,
+      "planned": 304233.7,
+      "actual": 289059.1,
+      "shortfall": 15174.6,
+      "shortfall_months": 4,
+      "avg_achievement": 94.5
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2024,
+      "planned": 323646.3,
+      "actual": 309959.7,
+      "shortfall": 13686.6,
+      "shortfall_months": 4,
+      "avg_achievement": 95.33
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2025,
+      "planned": 338623.8,
+      "actual": 320545.1,
+      "shortfall": 18236.1,
+      "shortfall_months": 6,
+      "avg_achievement": 94.15
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2015,
+      "planned": 94500.0,
+      "actual": 90176.8,
+      "shortfall": 4326.2,
+      "shortfall_months": 4,
+      "avg_achievement": 95.01
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2016,
+      "planned": 97588.9,
+      "actual": 93309.1,
+      "shortfall": 4319.8,
+      "shortfall_months": 5,
+      "avg_achievement": 95.18
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2017,
+      "planned": 101606.4,
+      "actual": 96789.1,
+      "shortfall": 4817.3,
+      "shortfall_months": 5,
+      "avg_achievement": 94.94
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2018,
+      "planned": 107474.3,
+      "actual": 102138.8,
+      "shortfall": 5563.9,
+      "shortfall_months": 6,
+      "avg_achievement": 94.65
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2019,
+      "planned": 111557.0,
+      "actual": 105712.6,
+      "shortfall": 5844.4,
+      "shortfall_months": 6,
+      "avg_achievement": 94.16
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2020,
+      "planned": 96389.8,
+      "actual": 92208.4,
+      "shortfall": 4181.4,
+      "shortfall_months": 3,
+      "avg_achievement": 95.24
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2021,
+      "planned": 105984.0,
+      "actual": 100385.9,
+      "shortfall": 5792.2,
+      "shortfall_months": 6,
+      "avg_achievement": 94.25
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2022,
+      "planned": 118425.8,
+      "actual": 112898.5,
+      "shortfall": 5527.3,
+      "shortfall_months": 5,
+      "avg_achievement": 95.0
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2023,
+      "planned": 124459.2,
+      "actual": 118998.7,
+      "shortfall": 5501.4,
+      "shortfall_months": 6,
+      "avg_achievement": 95.28
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2024,
+      "planned": 132400.5,
+      "actual": 124996.0,
+      "shortfall": 7422.1,
+      "shortfall_months": 5,
+      "avg_achievement": 93.9
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2025,
+      "planned": 138527.8,
+      "actual": 132943.4,
+      "shortfall": 5948.4,
+      "shortfall_months": 5,
+      "avg_achievement": 95.59
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2015,
+      "planned": 83999.8,
+      "actual": 80564.8,
+      "shortfall": 3435.0,
+      "shortfall_months": 5,
+      "avg_achievement": 95.6
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2016,
+      "planned": 86745.6,
+      "actual": 82159.2,
+      "shortfall": 4755.5,
+      "shortfall_months": 6,
+      "avg_achievement": 94.25
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2017,
+      "planned": 90317.0,
+      "actual": 86040.4,
+      "shortfall": 4451.6,
+      "shortfall_months": 5,
+      "avg_achievement": 94.61
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2018,
+      "planned": 95532.8,
+      "actual": 90107.4,
+      "shortfall": 5425.4,
+      "shortfall_months": 6,
+      "avg_achievement": 94.13
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2019,
+      "planned": 99161.5,
+      "actual": 93998.4,
+      "shortfall": 5220.1,
+      "shortfall_months": 7,
+      "avg_achievement": 94.43
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2020,
+      "planned": 85680.0,
+      "actual": 81586.6,
+      "shortfall": 4093.4,
+      "shortfall_months": 4,
+      "avg_achievement": 94.82
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2021,
+      "planned": 94208.0,
+      "actual": 89841.1,
+      "shortfall": 4546.8,
+      "shortfall_months": 6,
+      "avg_achievement": 94.86
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2022,
+      "planned": 105266.9,
+      "actual": 100540.2,
+      "shortfall": 4790.7,
+      "shortfall_months": 5,
+      "avg_achievement": 95.04
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2023,
+      "planned": 110630.4,
+      "actual": 104269.7,
+      "shortfall": 6360.7,
+      "shortfall_months": 5,
+      "avg_achievement": 93.71
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2024,
+      "planned": 117689.8,
+      "actual": 111466.4,
+      "shortfall": 6225.6,
+      "shortfall_months": 5,
+      "avg_achievement": 94.09
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2025,
+      "planned": 123136.1,
+      "actual": 117517.3,
+      "shortfall": 5847.0,
+      "shortfall_months": 4,
+      "avg_achievement": 94.98
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2015,
+      "planned": 52500.2,
+      "actual": 49773.0,
+      "shortfall": 2737.7,
+      "shortfall_months": 5,
+      "avg_achievement": 94.27
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2016,
+      "planned": 54129.7,
+      "actual": 51672.1,
+      "shortfall": 2617.6,
+      "shortfall_months": 6,
+      "avg_achievement": 94.98
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2017,
+      "planned": 56268.8,
+      "actual": 54181.5,
+      "shortfall": 2330.8,
+      "shortfall_months": 4,
+      "avg_achievement": 95.66
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2018,
+      "planned": 59424.8,
+      "actual": 56933.0,
+      "shortfall": 2536.4,
+      "shortfall_months": 3,
+      "avg_achievement": 95.43
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2019,
+      "planned": 61585.4,
+      "actual": 58535.9,
+      "shortfall": 3049.5,
+      "shortfall_months": 5,
+      "avg_achievement": 94.5
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2020,
+      "planned": 53130.0,
+      "actual": 50752.4,
+      "shortfall": 2377.6,
+      "shortfall_months": 4,
+      "avg_achievement": 95.04
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2021,
+      "planned": 58328.2,
+      "actual": 55609.2,
+      "shortfall": 2792.8,
+      "shortfall_months": 5,
+      "avg_achievement": 94.79
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2022,
+      "planned": 65075.0,
+      "actual": 62372.4,
+      "shortfall": 2990.7,
+      "shortfall_months": 5,
+      "avg_achievement": 95.39
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2023,
+      "planned": 68286.2,
+      "actual": 63245.1,
+      "shortfall": 5068.1,
+      "shortfall_months": 8,
+      "avg_achievement": 91.92
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2024,
+      "planned": 72533.7,
+      "actual": 69152.1,
+      "shortfall": 3401.1,
+      "shortfall_months": 4,
+      "avg_achievement": 94.83
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2025,
+      "planned": 75776.0,
+      "actual": 72268.5,
+      "shortfall": 3632.6,
+      "shortfall_months": 4,
+      "avg_achievement": 94.63
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2015,
+      "planned": 83999.8,
+      "actual": 79923.5,
+      "shortfall": 4076.3,
+      "shortfall_months": 4,
+      "avg_achievement": 94.71
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2016,
+      "planned": 86745.6,
+      "actual": 82796.7,
+      "shortfall": 4065.2,
+      "shortfall_months": 5,
+      "avg_achievement": 95.02
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2017,
+      "planned": 90317.0,
+      "actual": 84650.4,
+      "shortfall": 5666.6,
+      "shortfall_months": 7,
+      "avg_achievement": 93.32
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2018,
+      "planned": 95532.8,
+      "actual": 90858.7,
+      "shortfall": 4674.1,
+      "shortfall_months": 7,
+      "avg_achievement": 94.83
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2019,
+      "planned": 99161.5,
+      "actual": 93127.1,
+      "shortfall": 6034.4,
+      "shortfall_months": 7,
+      "avg_achievement": 93.49
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2020,
+      "planned": 85680.0,
+      "actual": 81810.2,
+      "shortfall": 3869.8,
+      "shortfall_months": 3,
+      "avg_achievement": 94.97
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2021,
+      "planned": 94208.0,
+      "actual": 90312.3,
+      "shortfall": 4187.4,
+      "shortfall_months": 5,
+      "avg_achievement": 95.47
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2022,
+      "planned": 105266.9,
+      "actual": 99842.4,
+      "shortfall": 5424.5,
+      "shortfall_months": 5,
+      "avg_achievement": 94.36
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2023,
+      "planned": 110630.4,
+      "actual": 105973.7,
+      "shortfall": 4661.1,
+      "shortfall_months": 5,
+      "avg_achievement": 95.38
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2024,
+      "planned": 117689.8,
+      "actual": 112509.3,
+      "shortfall": 5281.8,
+      "shortfall_months": 5,
+      "avg_achievement": 95.24
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2025,
+      "planned": 123136.1,
+      "actual": 117677.9,
+      "shortfall": 5458.2,
+      "shortfall_months": 4,
+      "avg_achievement": 95.05
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2015,
+      "planned": 105000.0,
+      "actual": 99309.1,
+      "shortfall": 5690.9,
+      "shortfall_months": 7,
+      "avg_achievement": 94.16
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2016,
+      "planned": 108432.2,
+      "actual": 103021.6,
+      "shortfall": 5553.0,
+      "shortfall_months": 5,
+      "avg_achievement": 94.4
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2017,
+      "planned": 112896.0,
+      "actual": 108669.4,
+      "shortfall": 4284.5,
+      "shortfall_months": 4,
+      "avg_achievement": 95.82
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2018,
+      "planned": 119416.0,
+      "actual": 113727.4,
+      "shortfall": 5754.6,
+      "shortfall_months": 4,
+      "avg_achievement": 94.86
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2019,
+      "planned": 123951.8,
+      "actual": 120127.0,
+      "shortfall": 3933.1,
+      "shortfall_months": 3,
+      "avg_achievement": 96.45
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2020,
+      "planned": 107100.0,
+      "actual": 101755.4,
+      "shortfall": 5344.6,
+      "shortfall_months": 6,
+      "avg_achievement": 94.52
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2021,
+      "planned": 117759.8,
+      "actual": 113360.5,
+      "shortfall": 4399.3,
+      "shortfall_months": 3,
+      "avg_achievement": 96.07
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2022,
+      "planned": 131583.9,
+      "actual": 124200.4,
+      "shortfall": 7383.5,
+      "shortfall_months": 7,
+      "avg_achievement": 94.14
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2023,
+      "planned": 138288.2,
+      "actual": 131174.1,
+      "shortfall": 7487.0,
+      "shortfall_months": 5,
+      "avg_achievement": 94.46
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2024,
+      "planned": 147112.1,
+      "actual": 139798.9,
+      "shortfall": 7313.2,
+      "shortfall_months": 6,
+      "avg_achievement": 94.67
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2025,
+      "planned": 153920.2,
+      "actual": 147343.7,
+      "shortfall": 6721.5,
+      "shortfall_months": 6,
+      "avg_achievement": 95.4
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2015,
+      "planned": 94500.0,
+      "actual": 90049.2,
+      "shortfall": 4636.3,
+      "shortfall_months": 5,
+      "avg_achievement": 94.82
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2016,
+      "planned": 97588.9,
+      "actual": 94132.3,
+      "shortfall": 3595.4,
+      "shortfall_months": 4,
+      "avg_achievement": 96.06
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2017,
+      "planned": 101606.4,
+      "actual": 97836.0,
+      "shortfall": 3947.8,
+      "shortfall_months": 4,
+      "avg_achievement": 95.8
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2018,
+      "planned": 107474.3,
+      "actual": 102307.2,
+      "shortfall": 5451.6,
+      "shortfall_months": 4,
+      "avg_achievement": 94.43
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2019,
+      "planned": 111557.0,
+      "actual": 106593.3,
+      "shortfall": 5204.9,
+      "shortfall_months": 5,
+      "avg_achievement": 95.01
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2020,
+      "planned": 96389.8,
+      "actual": 92058.0,
+      "shortfall": 4499.1,
+      "shortfall_months": 5,
+      "avg_achievement": 94.96
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2021,
+      "planned": 105984.0,
+      "actual": 100599.5,
+      "shortfall": 5482.3,
+      "shortfall_months": 6,
+      "avg_achievement": 94.39
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2022,
+      "planned": 118425.8,
+      "actual": 113627.0,
+      "shortfall": 5134.5,
+      "shortfall_months": 3,
+      "avg_achievement": 95.49
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2023,
+      "planned": 124459.2,
+      "actual": 118749.0,
+      "shortfall": 5710.2,
+      "shortfall_months": 6,
+      "avg_achievement": 95.02
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2024,
+      "planned": 132400.5,
+      "actual": 126977.8,
+      "shortfall": 5635.5,
+      "shortfall_months": 5,
+      "avg_achievement": 95.4
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2025,
+      "planned": 138527.8,
+      "actual": 131939.0,
+      "shortfall": 6595.8,
+      "shortfall_months": 8,
+      "avg_achievement": 94.91
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2015,
+      "planned": 73500.1,
+      "actual": 69797.7,
+      "shortfall": 3746.8,
+      "shortfall_months": 5,
+      "avg_achievement": 94.36
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2016,
+      "planned": 75781.5,
+      "actual": 73061.2,
+      "shortfall": 2904.8,
+      "shortfall_months": 4,
+      "avg_achievement": 95.79
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2017,
+      "planned": 78776.5,
+      "actual": 74872.0,
+      "shortfall": 4075.2,
+      "shortfall_months": 5,
+      "avg_achievement": 94.54
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2018,
+      "planned": 83194.5,
+      "actual": 79494.2,
+      "shortfall": 3884.9,
+      "shortfall_months": 4,
+      "avg_achievement": 94.9
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2019,
+      "planned": 86219.9,
+      "actual": 82867.9,
+      "shortfall": 3352.0,
+      "shortfall_months": 5,
+      "avg_achievement": 95.71
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2020,
+      "planned": 74381.9,
+      "actual": 70548.3,
+      "shortfall": 3924.9,
+      "shortfall_months": 4,
+      "avg_achievement": 94.19
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2021,
+      "planned": 81659.2,
+      "actual": 77770.5,
+      "shortfall": 4047.0,
+      "shortfall_months": 5,
+      "avg_achievement": 94.6
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2022,
+      "planned": 91105.4,
+      "actual": 86566.3,
+      "shortfall": 4539.1,
+      "shortfall_months": 6,
+      "avg_achievement": 94.54
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2023,
+      "planned": 95601.1,
+      "actual": 91080.2,
+      "shortfall": 4520.9,
+      "shortfall_months": 4,
+      "avg_achievement": 94.78
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2024,
+      "planned": 101546.9,
+      "actual": 96330.6,
+      "shortfall": 5293.0,
+      "shortfall_months": 4,
+      "avg_achievement": 94.15
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2025,
+      "planned": 106086.4,
+      "actual": 99808.8,
+      "shortfall": 6277.6,
+      "shortfall_months": 5,
+      "avg_achievement": 93.35
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2015,
+      "planned": 105000.0,
+      "actual": 101918.3,
+      "shortfall": 3770.5,
+      "shortfall_months": 4,
+      "avg_achievement": 96.53
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2016,
+      "planned": 108259.3,
+      "actual": 102898.4,
+      "shortfall": 5432.6,
+      "shortfall_months": 6,
+      "avg_achievement": 94.52
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2017,
+      "planned": 112537.5,
+      "actual": 105875.6,
+      "shortfall": 6661.9,
+      "shortfall_months": 6,
+      "avg_achievement": 93.58
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2018,
+      "planned": 118849.7,
+      "actual": 114181.7,
+      "shortfall": 4923.5,
+      "shortfall_months": 6,
+      "avg_achievement": 95.66
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2019,
+      "planned": 123171.2,
+      "actual": 118311.0,
+      "shortfall": 5212.1,
+      "shortfall_months": 5,
+      "avg_achievement": 95.81
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2020,
+      "planned": 106260.0,
+      "actual": 100786.0,
+      "shortfall": 5536.8,
+      "shortfall_months": 4,
+      "avg_achievement": 94.28
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2021,
+      "planned": 116656.1,
+      "actual": 111612.6,
+      "shortfall": 5135.6,
+      "shortfall_months": 4,
+      "avg_achievement": 95.09
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2022,
+      "planned": 130150.6,
+      "actual": 124140.5,
+      "shortfall": 6057.2,
+      "shortfall_months": 6,
+      "avg_achievement": 94.83
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2023,
+      "planned": 136573.0,
+      "actual": 131599.6,
+      "shortfall": 5228.4,
+      "shortfall_months": 6,
+      "avg_achievement": 96.04
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2024,
+      "planned": 145067.2,
+      "actual": 139062.9,
+      "shortfall": 6299.9,
+      "shortfall_months": 5,
+      "avg_achievement": 95.38
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2025,
+      "planned": 151552.0,
+      "actual": 143911.1,
+      "shortfall": 7896.5,
+      "shortfall_months": 6,
+      "avg_achievement": 94.44
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2015,
+      "planned": 126000.2,
+      "actual": 118130.1,
+      "shortfall": 7931.5,
+      "shortfall_months": 8,
+      "avg_achievement": 93.3
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2016,
+      "planned": 130118.2,
+      "actual": 122160.8,
+      "shortfall": 7957.4,
+      "shortfall_months": 7,
+      "avg_achievement": 93.52
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2017,
+      "planned": 135474.9,
+      "actual": 128235.1,
+      "shortfall": 7360.7,
+      "shortfall_months": 7,
+      "avg_achievement": 94.17
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2018,
+      "planned": 143299.2,
+      "actual": 135792.5,
+      "shortfall": 7506.7,
+      "shortfall_months": 5,
+      "avg_achievement": 94.43
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2019,
+      "planned": 148742.5,
+      "actual": 139341.4,
+      "shortfall": 9401.1,
+      "shortfall_months": 9,
+      "avg_achievement": 93.45
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2020,
+      "planned": 128520.0,
+      "actual": 122999.5,
+      "shortfall": 5520.5,
+      "shortfall_months": 3,
+      "avg_achievement": 95.36
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2021,
+      "planned": 141312.2,
+      "actual": 133763.0,
+      "shortfall": 7601.9,
+      "shortfall_months": 4,
+      "avg_achievement": 94.13
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2022,
+      "planned": 157901.0,
+      "actual": 151604.5,
+      "shortfall": 6930.9,
+      "shortfall_months": 6,
+      "avg_achievement": 95.58
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2023,
+      "planned": 165945.6,
+      "actual": 158105.5,
+      "shortfall": 7840.1,
+      "shortfall_months": 4,
+      "avg_achievement": 94.86
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2024,
+      "planned": 176534.5,
+      "actual": 169646.8,
+      "shortfall": 7312.1,
+      "shortfall_months": 4,
+      "avg_achievement": 95.6
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2025,
+      "planned": 184703.9,
+      "actual": 175204.0,
+      "shortfall": 9875.1,
+      "shortfall_months": 6,
+      "avg_achievement": 94.42
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year": 2015,
+      "month": 1,
+      "total_shortfall": 1645.6,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2015,
+      "month": 2,
+      "total_shortfall": 2909.3,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2015,
+      "month": 3,
+      "total_shortfall": 3561.9,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2015,
+      "month": 4,
+      "total_shortfall": 2308.1,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "total_shortfall": 2994.2,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2015,
+      "month": 6,
+      "total_shortfall": 5937.8,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2015,
+      "month": 7,
+      "total_shortfall": 8933.8,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2015,
+      "month": 8,
+      "total_shortfall": 7434.0,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2015,
+      "month": 9,
+      "total_shortfall": 6852.3,
+      "shortfall_events": 8
+    },
+    {
+      "year": 2015,
+      "month": 10,
+      "total_shortfall": 3824.2,
+      "shortfall_events": 4
+    },
+    {
+      "year": 2015,
+      "month": 11,
+      "total_shortfall": 2820.8,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2015,
+      "month": 12,
+      "total_shortfall": 2238.9,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2016,
+      "month": 1,
+      "total_shortfall": 1908.2,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2016,
+      "month": 2,
+      "total_shortfall": 3202.0,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2016,
+      "month": 3,
+      "total_shortfall": 1826.7,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2016,
+      "month": 4,
+      "total_shortfall": 2873.1,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2016,
+      "month": 5,
+      "total_shortfall": 2751.3,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2016,
+      "month": 6,
+      "total_shortfall": 6396.0,
+      "shortfall_events": 8
+    },
+    {
+      "year": 2016,
+      "month": 7,
+      "total_shortfall": 7837.5,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2016,
+      "month": 8,
+      "total_shortfall": 8873.0,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2016,
+      "month": 9,
+      "total_shortfall": 5770.7,
+      "shortfall_events": 8
+    },
+    {
+      "year": 2016,
+      "month": 10,
+      "total_shortfall": 4330.1,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "total_shortfall": 2957.0,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2016,
+      "month": 12,
+      "total_shortfall": 2870.1000000000004,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2017,
+      "month": 1,
+      "total_shortfall": 2726.2,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2017,
+      "month": 2,
+      "total_shortfall": 3486.5,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "total_shortfall": 2814.5,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "total_shortfall": 2953.3,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "total_shortfall": 2854.3,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2017,
+      "month": 6,
+      "total_shortfall": 6145.799999999999,
+      "shortfall_events": 9
+    },
+    {
+      "year": 2017,
+      "month": 7,
+      "total_shortfall": 8619.1,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "total_shortfall": 7605.6,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2017,
+      "month": 9,
+      "total_shortfall": 6636.0,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "total_shortfall": 3321.0,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "total_shortfall": 2354.6,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "total_shortfall": 2801.3,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2018,
+      "month": 1,
+      "total_shortfall": 2830.8,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "total_shortfall": 4566.8,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "total_shortfall": 2970.1,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "total_shortfall": 3190.9,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "total_shortfall": 2802.2000000000003,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "total_shortfall": 6031.2,
+      "shortfall_events": 9
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "total_shortfall": 8979.800000000001,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "total_shortfall": 9116.8,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "total_shortfall": 7086.7,
+      "shortfall_events": 9
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "total_shortfall": 3746.2,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "total_shortfall": 3200.7,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "total_shortfall": 2561.9,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2019,
+      "month": 1,
+      "total_shortfall": 3786.8,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "total_shortfall": 3564.2,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "total_shortfall": 3620.7000000000003,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "total_shortfall": 3424.5,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "total_shortfall": 2587.6,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "total_shortfall": 7560.3,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "total_shortfall": 9435.5,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "total_shortfall": 8026.3,
+      "shortfall_events": 9
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "total_shortfall": 7626.3,
+      "shortfall_events": 8
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "total_shortfall": 4410.6,
+      "shortfall_events": 5
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "total_shortfall": 3936.6,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "total_shortfall": 3859.0,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "total_shortfall": 1796.1000000000001,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "total_shortfall": 2171.9,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "total_shortfall": 3409.7,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "total_shortfall": 2243.9,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2020,
+      "month": 5,
+      "total_shortfall": 1210.9,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "total_shortfall": 5868.9,
+      "shortfall_events": 6
+    },
+    {
+      "year": 2020,
+      "month": 7,
+      "total_shortfall": 9675.4,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2020,
+      "month": 8,
+      "total_shortfall": 8053.6,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "total_shortfall": 6443.8,
+      "shortfall_events": 8
+    },
+    {
+      "year": 2020,
+      "month": 10,
+      "total_shortfall": 4102.1,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "total_shortfall": 4234.1,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "total_shortfall": 1590.3,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "total_shortfall": 3010.1000000000004,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "total_shortfall": 4883.5,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2021,
+      "month": 3,
+      "total_shortfall": 2968.7999999999997,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2021,
+      "month": 4,
+      "total_shortfall": 2686.3,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "total_shortfall": 2046.1,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "total_shortfall": 7068.0,
+      "shortfall_events": 9
+    },
+    {
+      "year": 2021,
+      "month": 7,
+      "total_shortfall": 8943.9,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "total_shortfall": 10334.6,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "total_shortfall": 5793.5,
+      "shortfall_events": 8
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "total_shortfall": 3402.5,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "total_shortfall": 2092.1000000000004,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "total_shortfall": 3347.3,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2022,
+      "month": 1,
+      "total_shortfall": 3634.9,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2022,
+      "month": 2,
+      "total_shortfall": 2491.8,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2022,
+      "month": 3,
+      "total_shortfall": 3754.7,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "total_shortfall": 4469.4,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2022,
+      "month": 5,
+      "total_shortfall": 2004.3999999999999,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "total_shortfall": 7217.8,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "total_shortfall": 11624.900000000001,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "total_shortfall": 8914.7,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "total_shortfall": 7201.0,
+      "shortfall_events": 9
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "total_shortfall": 4902.8,
+      "shortfall_events": 5
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "total_shortfall": 2081.0,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2022,
+      "month": 12,
+      "total_shortfall": 2716.6,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2023,
+      "month": 1,
+      "total_shortfall": 3076.4,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "total_shortfall": 4921.1,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "total_shortfall": 3886.8,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "total_shortfall": 4000.9,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "total_shortfall": 3865.6,
+      "shortfall_events": 4
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "total_shortfall": 8299.6,
+      "shortfall_events": 9
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "total_shortfall": 10226.6,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "total_shortfall": 11734.4,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "total_shortfall": 6950.0,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "total_shortfall": 5179.2,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "total_shortfall": 2590.7,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "total_shortfall": 2821.2,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "total_shortfall": 2423.3,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "total_shortfall": 2409.2,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "total_shortfall": 2980.0,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "total_shortfall": 3573.9,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "total_shortfall": 2214.0,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "total_shortfall": 8193.6,
+      "shortfall_events": 9
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "total_shortfall": 11629.7,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "total_shortfall": 12098.6,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "total_shortfall": 8847.9,
+      "shortfall_events": 7
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "total_shortfall": 5033.1,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "total_shortfall": 4400.9,
+      "shortfall_events": 3
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "total_shortfall": 4066.7000000000003,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "total_shortfall": 2534.2,
+      "shortfall_events": 0
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "total_shortfall": 5285.1,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "total_shortfall": 2082.5,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "total_shortfall": 4356.5,
+      "shortfall_events": 2
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "total_shortfall": 3268.3,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "total_shortfall": 9290.7,
+      "shortfall_events": 9
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "total_shortfall": 12959.2,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "total_shortfall": 11715.6,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "total_shortfall": 9669.699999999999,
+      "shortfall_events": 10
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "total_shortfall": 6760.0,
+      "shortfall_events": 6
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "total_shortfall": 4364.8,
+      "shortfall_events": 1
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "total_shortfall": 4202.2,
+      "shortfall_events": 2
+    }
+  ],
+  "prospectivity_levels": {
+    "LOW": 315269,
+    "VERY HIGH": 49714,
+    "MEDIUM": 43360,
+    "HIGH": 27466
+  },
+  "prospectivity_by_state": [
+    {
+      "state": "Madhya Pradesh",
+      "prospectivity_level": "HIGH",
+      "count": 13171
+    },
+    {
+      "state": "Madhya Pradesh",
+      "prospectivity_level": "LOW",
+      "count": 145164
+    },
+    {
+      "state": "Madhya Pradesh",
+      "prospectivity_level": "MEDIUM",
+      "count": 20129
+    },
+    {
+      "state": "Madhya Pradesh",
+      "prospectivity_level": "VERY HIGH",
+      "count": 25924
+    },
+    {
+      "state": "Maharashtra",
+      "prospectivity_level": "HIGH",
+      "count": 14295
+    },
+    {
+      "state": "Maharashtra",
+      "prospectivity_level": "LOW",
+      "count": 170105
+    },
+    {
+      "state": "Maharashtra",
+      "prospectivity_level": "MEDIUM",
+      "count": 23231
+    },
+    {
+      "state": "Maharashtra",
+      "prospectivity_level": "VERY HIGH",
+      "count": 23790
+    }
+  ],
+  "top_prospective_cells": [
+    {
+      "cell_id": "MP_1155_0564",
+      "latitude": 25.975494,
+      "longitude": 78.134247,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1153_0565",
+      "latitude": 25.957527,
+      "longitude": 78.143883,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1161_0560",
+      "latitude": 26.029392,
+      "longitude": 78.095703,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1156_0563",
+      "latitude": 25.984478,
+      "longitude": 78.124611,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0805_0558",
+      "latitude": 22.831406,
+      "longitude": 78.076431,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0804_0555",
+      "latitude": 22.822422,
+      "longitude": 78.047531,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0807_0556",
+      "latitude": 22.849371,
+      "longitude": 78.057159,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1175_0568",
+      "latitude": 26.155157,
+      "longitude": 78.172783,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0804_0556",
+      "latitude": 22.822422,
+      "longitude": 78.057159,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1154_0564",
+      "latitude": 25.966511,
+      "longitude": 78.134247,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1152_0566",
+      "latitude": 25.948545,
+      "longitude": 78.153511,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0828_0564",
+      "latitude": 23.038017,
+      "longitude": 78.134247,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1156_0557",
+      "latitude": 25.984478,
+      "longitude": 78.066795,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0811_0556",
+      "latitude": 22.885303,
+      "longitude": 78.057159,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0802_0556",
+      "latitude": 22.804455,
+      "longitude": 78.057159,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0804_0553",
+      "latitude": 22.822422,
+      "longitude": 78.028259,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9999,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0824_0561",
+      "latitude": 23.002085,
+      "longitude": 78.105339,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0804_0554",
+      "latitude": 22.822422,
+      "longitude": 78.037895,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0805_0552",
+      "latitude": 22.831406,
+      "longitude": 78.018623,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0829_0566",
+      "latitude": 23.046999,
+      "longitude": 78.153511,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1149_0563",
+      "latitude": 25.921595,
+      "longitude": 78.124611,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1156_0566",
+      "latitude": 25.984478,
+      "longitude": 78.153511,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1153_0561",
+      "latitude": 25.957527,
+      "longitude": 78.105339,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1152_0569",
+      "latitude": 25.948545,
+      "longitude": 78.182419,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1149_0567",
+      "latitude": 25.921595,
+      "longitude": 78.163147,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1157_0556",
+      "latitude": 25.99346,
+      "longitude": 78.057159,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1170_0568",
+      "latitude": 26.110241,
+      "longitude": 78.172783,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0823_0563",
+      "latitude": 22.993101,
+      "longitude": 78.124611,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0393_0166",
+      "latitude": 19.130363,
+      "longitude": 74.299438,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0830_0566",
+      "latitude": 23.055983,
+      "longitude": 78.153511,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1163_0571",
+      "latitude": 26.047359,
+      "longitude": 78.201691,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1150_0562",
+      "latitude": 25.930578,
+      "longitude": 78.114975,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1154_0563",
+      "latitude": 25.966511,
+      "longitude": 78.124611,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0810_0554",
+      "latitude": 22.87632,
+      "longitude": 78.037895,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1157_0557",
+      "latitude": 25.99346,
+      "longitude": 78.066795,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1152_0562",
+      "latitude": 25.948545,
+      "longitude": 78.114975,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1158_0561",
+      "latitude": 26.002443,
+      "longitude": 78.105339,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0829_0567",
+      "latitude": 23.046999,
+      "longitude": 78.163147,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1161_0572",
+      "latitude": 26.029392,
+      "longitude": 78.211327,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1165_0571",
+      "latitude": 26.065325,
+      "longitude": 78.201691,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0831_0566",
+      "latitude": 23.064966,
+      "longitude": 78.153511,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1169_0569",
+      "latitude": 26.101257,
+      "longitude": 78.182419,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1167_0569",
+      "latitude": 26.083292,
+      "longitude": 78.182419,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1168_0568",
+      "latitude": 26.092274,
+      "longitude": 78.172783,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0153_0471",
+      "latitude": 16.974417,
+      "longitude": 77.238174,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1152_0564",
+      "latitude": 25.948545,
+      "longitude": 78.134247,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1155_0559",
+      "latitude": 25.975494,
+      "longitude": 78.086067,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9998,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0806_0555",
+      "latitude": 22.840387,
+      "longitude": 78.047531,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1154_0561",
+      "latitude": 25.966511,
+      "longitude": 78.105339,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1155_0560",
+      "latitude": 25.975494,
+      "longitude": 78.095703,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1168_0569",
+      "latitude": 26.092274,
+      "longitude": 78.182419,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1151_0564",
+      "latitude": 25.939562,
+      "longitude": 78.134247,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1159_0556",
+      "latitude": 26.011427,
+      "longitude": 78.057159,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1150_0567",
+      "latitude": 25.930578,
+      "longitude": 78.163147,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0807_0558",
+      "latitude": 22.849371,
+      "longitude": 78.076431,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0801_0554",
+      "latitude": 22.795473,
+      "longitude": 78.037895,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0800_0549",
+      "latitude": 22.786489,
+      "longitude": 77.989716,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1157_0560",
+      "latitude": 25.99346,
+      "longitude": 78.095703,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1173_0569",
+      "latitude": 26.13719,
+      "longitude": 78.182419,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0832_0566",
+      "latitude": 23.07395,
+      "longitude": 78.153511,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1148_0565",
+      "latitude": 25.912613,
+      "longitude": 78.143883,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1158_0557",
+      "latitude": 26.002443,
+      "longitude": 78.066795,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1165_0570",
+      "latitude": 26.065325,
+      "longitude": 78.192055,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1156_0568",
+      "latitude": 25.984478,
+      "longitude": 78.172783,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1151_0561",
+      "latitude": 25.939562,
+      "longitude": 78.105339,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0810_0558",
+      "latitude": 22.87632,
+      "longitude": 78.076431,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0801_0555",
+      "latitude": 22.795473,
+      "longitude": 78.047531,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1154_0566",
+      "latitude": 25.966511,
+      "longitude": 78.153511,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0401_0173",
+      "latitude": 19.202229,
+      "longitude": 74.36689,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0391_0165",
+      "latitude": 19.112396,
+      "longitude": 74.289803,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0830_0548",
+      "latitude": 23.055983,
+      "longitude": 77.98008,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1163_0572",
+      "latitude": 26.047359,
+      "longitude": 78.211327,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1155_0561",
+      "latitude": 25.975494,
+      "longitude": 78.105339,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0828_0565",
+      "latitude": 23.038017,
+      "longitude": 78.143883,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0815_0548",
+      "latitude": 22.921236,
+      "longitude": 77.98008,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1157_0562",
+      "latitude": 25.99346,
+      "longitude": 78.114975,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1169_0573",
+      "latitude": 26.101257,
+      "longitude": 78.220963,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0825_0568",
+      "latitude": 23.011066,
+      "longitude": 78.172783,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1153_0563",
+      "latitude": 25.957527,
+      "longitude": 78.124611,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0388_0164",
+      "latitude": 19.085447,
+      "longitude": 74.280167,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0389_0165",
+      "latitude": 19.094431,
+      "longitude": 74.289803,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1176_0572",
+      "latitude": 26.164139,
+      "longitude": 78.211327,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9997,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1187_0521",
+      "latitude": 26.262953,
+      "longitude": 77.719933,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0803_0555",
+      "latitude": 22.813438,
+      "longitude": 78.047531,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1159_0561",
+      "latitude": 26.011427,
+      "longitude": 78.105339,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1177_0571",
+      "latitude": 26.173122,
+      "longitude": 78.201691,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1170_0573",
+      "latitude": 26.110241,
+      "longitude": 78.220963,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1153_0567",
+      "latitude": 25.957527,
+      "longitude": 78.163147,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0392_0167",
+      "latitude": 19.12138,
+      "longitude": 74.309074,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1158_0562",
+      "latitude": 26.002443,
+      "longitude": 78.114975,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1171_0566",
+      "latitude": 26.119225,
+      "longitude": 78.153511,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1150_0565",
+      "latitude": 25.930578,
+      "longitude": 78.143883,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0814_0556",
+      "latitude": 22.912252,
+      "longitude": 78.057159,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0828_0567",
+      "latitude": 23.038017,
+      "longitude": 78.163147,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1150_0568",
+      "latitude": 25.930578,
+      "longitude": 78.172783,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1149_0565",
+      "latitude": 25.921595,
+      "longitude": 78.143883,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0806_0557",
+      "latitude": 22.840387,
+      "longitude": 78.066795,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0389_0167",
+      "latitude": 19.094431,
+      "longitude": 74.309074,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0401_0175",
+      "latitude": 19.202229,
+      "longitude": 74.386154,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1172_0570",
+      "latitude": 26.128206,
+      "longitude": 78.192055,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0809_0543",
+      "latitude": 22.867338,
+      "longitude": 77.931908,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1151_0566",
+      "latitude": 25.939562,
+      "longitude": 78.153511,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0389_0164",
+      "latitude": 19.094431,
+      "longitude": 74.280167,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1151_0565",
+      "latitude": 25.939562,
+      "longitude": 78.143883,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1153_0562",
+      "latitude": 25.957527,
+      "longitude": 78.114975,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1151_0562",
+      "latitude": 25.939562,
+      "longitude": 78.114975,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0877_0899",
+      "latitude": 23.478189,
+      "longitude": 81.36203,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1157_0564",
+      "latitude": 25.99346,
+      "longitude": 78.134247,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1160_0571",
+      "latitude": 26.020411,
+      "longitude": 78.201691,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0823_0568",
+      "latitude": 22.993101,
+      "longitude": 78.172783,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1159_0563",
+      "latitude": 26.011427,
+      "longitude": 78.124611,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0878_0897",
+      "latitude": 23.487171,
+      "longitude": 81.342758,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0877_0898",
+      "latitude": 23.478189,
+      "longitude": 81.352394,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0403_0174",
+      "latitude": 19.220194,
+      "longitude": 74.376526,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0402_0175",
+      "latitude": 19.21121,
+      "longitude": 74.386154,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0834_0565",
+      "latitude": 23.091915,
+      "longitude": 78.143883,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1156_0559",
+      "latitude": 25.984478,
+      "longitude": 78.086067,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0812_0549",
+      "latitude": 22.894287,
+      "longitude": 77.989716,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1158_0567",
+      "latitude": 26.002443,
+      "longitude": 78.163147,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1176_0573",
+      "latitude": 26.164139,
+      "longitude": 78.220963,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0403_0172",
+      "latitude": 19.220194,
+      "longitude": 74.357254,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0805_0557",
+      "latitude": 22.831406,
+      "longitude": 78.066795,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1149_0569",
+      "latitude": 25.921595,
+      "longitude": 78.182419,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0387_0164",
+      "latitude": 19.076464,
+      "longitude": 74.280167,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1150_0564",
+      "latitude": 25.930578,
+      "longitude": 78.134247,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1156_0564",
+      "latitude": 25.984478,
+      "longitude": 78.134247,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1158_0563",
+      "latitude": 26.002443,
+      "longitude": 78.124611,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1158_0559",
+      "latitude": 26.002443,
+      "longitude": 78.086067,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0829_0565",
+      "latitude": 23.046999,
+      "longitude": 78.143883,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0829_0559",
+      "latitude": 23.046999,
+      "longitude": 78.086067,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0393_0165",
+      "latitude": 19.130363,
+      "longitude": 74.289803,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1155_0563",
+      "latitude": 25.975494,
+      "longitude": 78.124611,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0803_0548",
+      "latitude": 22.813438,
+      "longitude": 77.98008,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0877_0900",
+      "latitude": 23.478189,
+      "longitude": 81.371666,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9996,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0808_0557",
+      "latitude": 22.858355,
+      "longitude": 78.066795,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1169_0570",
+      "latitude": 26.101257,
+      "longitude": 78.192055,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0322_0567",
+      "latitude": 18.492561,
+      "longitude": 78.163147,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1155_0567",
+      "latitude": 25.975494,
+      "longitude": 78.163147,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0835_0540",
+      "latitude": 23.100899,
+      "longitude": 77.903,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1163_0567",
+      "latitude": 26.047359,
+      "longitude": 78.163147,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0875_0897",
+      "latitude": 23.460222,
+      "longitude": 81.342758,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1153_0560",
+      "latitude": 25.957527,
+      "longitude": 78.095703,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0403_0173",
+      "latitude": 19.220194,
+      "longitude": 74.36689,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1152_0559",
+      "latitude": 25.948545,
+      "longitude": 78.086067,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1169_0574",
+      "latitude": 26.101257,
+      "longitude": 78.230598,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0404_0173",
+      "latitude": 19.229177,
+      "longitude": 74.36689,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0828_0563",
+      "latitude": 23.038017,
+      "longitude": 78.124611,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0390_0168",
+      "latitude": 19.103415,
+      "longitude": 74.31871,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0879_0899",
+      "latitude": 23.496155,
+      "longitude": 81.36203,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1159_0559",
+      "latitude": 26.011427,
+      "longitude": 78.086067,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1152_0563",
+      "latitude": 25.948545,
+      "longitude": 78.124611,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1166_0573",
+      "latitude": 26.074308,
+      "longitude": 78.220963,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1162_0572",
+      "latitude": 26.038376,
+      "longitude": 78.211327,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0401_0174",
+      "latitude": 19.202229,
+      "longitude": 74.376526,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0876_0899",
+      "latitude": 23.469206,
+      "longitude": 81.36203,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1157_0559",
+      "latitude": 25.99346,
+      "longitude": 78.086067,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1172_0571",
+      "latitude": 26.128206,
+      "longitude": 78.201691,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1158_0558",
+      "latitude": 26.002443,
+      "longitude": 78.076431,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0875_0899",
+      "latitude": 23.460222,
+      "longitude": 81.36203,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1160_0570",
+      "latitude": 26.020411,
+      "longitude": 78.192055,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0830_0549",
+      "latitude": 23.055983,
+      "longitude": 77.989716,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0824_0568",
+      "latitude": 23.002085,
+      "longitude": 78.172783,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0827_0559",
+      "latitude": 23.029034,
+      "longitude": 78.086067,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0802_0544",
+      "latitude": 22.804455,
+      "longitude": 77.941544,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0874_0898",
+      "latitude": 23.451241,
+      "longitude": 81.352394,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1155_0562",
+      "latitude": 25.975494,
+      "longitude": 78.114975,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0832_0558",
+      "latitude": 23.07395,
+      "longitude": 78.076431,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1167_0571",
+      "latitude": 26.083292,
+      "longitude": 78.201691,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0811_0555",
+      "latitude": 22.885303,
+      "longitude": 78.047531,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0803_0560",
+      "latitude": 22.813438,
+      "longitude": 78.095703,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0828_0548",
+      "latitude": 23.038017,
+      "longitude": 77.98008,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1152_0568",
+      "latitude": 25.948545,
+      "longitude": 78.172783,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0803_0557",
+      "latitude": 22.813438,
+      "longitude": 78.066795,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0401_0176",
+      "latitude": 19.202229,
+      "longitude": 74.39579,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0831_0564",
+      "latitude": 23.064966,
+      "longitude": 78.134247,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1168_0571",
+      "latitude": 26.092274,
+      "longitude": 78.201691,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9995,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1151_0563",
+      "latitude": 25.939562,
+      "longitude": 78.124611,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1168_0572",
+      "latitude": 26.092274,
+      "longitude": 78.211327,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0828_0566",
+      "latitude": 23.038017,
+      "longitude": 78.153511,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0842_0542",
+      "latitude": 23.16378,
+      "longitude": 77.922272,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1156_0561",
+      "latitude": 25.984478,
+      "longitude": 78.105339,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0829_0564",
+      "latitude": 23.046999,
+      "longitude": 78.134247,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0103_0426",
+      "latitude": 16.525261,
+      "longitude": 76.804588,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0841_0552",
+      "latitude": 23.154797,
+      "longitude": 78.018623,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1148_0566",
+      "latitude": 25.912613,
+      "longitude": 78.153511,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1160_0562",
+      "latitude": 26.020411,
+      "longitude": 78.114975,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0151_0472",
+      "latitude": 16.95645,
+      "longitude": 77.24781,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1159_0564",
+      "latitude": 26.011427,
+      "longitude": 78.134247,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0802_0546",
+      "latitude": 22.804455,
+      "longitude": 77.960808,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1171_0568",
+      "latitude": 26.119225,
+      "longitude": 78.172783,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1164_0572",
+      "latitude": 26.056341,
+      "longitude": 78.211327,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0834_0544",
+      "latitude": 23.091915,
+      "longitude": 77.941544,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0811_0554",
+      "latitude": 22.885303,
+      "longitude": 78.037895,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0874_0897",
+      "latitude": 23.451241,
+      "longitude": 81.342758,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1155_0566",
+      "latitude": 25.975494,
+      "longitude": 78.153511,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0808_0556",
+      "latitude": 22.858355,
+      "longitude": 78.057159,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MH_0098_0438",
+      "latitude": 16.480345,
+      "longitude": 76.920212,
+      "state": "Maharashtra",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0837_0543",
+      "latitude": 23.118864,
+      "longitude": 77.931908,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_1176_0569",
+      "latitude": 26.164139,
+      "longitude": 78.182419,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    },
+    {
+      "cell_id": "MP_0876_0901",
+      "latitude": 23.469206,
+      "longitude": 81.381302,
+      "state": "Madhya Pradesh",
+      "prospectivity_prob": 0.9994,
+      "prospectivity_level": "VERY HIGH"
+    }
+  ],
+  "monsoon_shortfall": {
+    "0": 0.16704545454545455,
+    "1": 0.9363636363636364
+  },
+  "mine_shortfall_by_year": [
+    {
+      "mine_name": "Balaghat",
+      "year": 2015,
+      "shortfall": 11109.7
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2016,
+      "shortfall": 10394.4
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2017,
+      "shortfall": 8721.8
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2018,
+      "shortfall": 11363.0
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2019,
+      "shortfall": 14586.8
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2020,
+      "shortfall": 11452.6
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2021,
+      "shortfall": 12591.4
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2022,
+      "shortfall": 12235.6
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2023,
+      "shortfall": 15174.599999999999
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2024,
+      "shortfall": 13686.6
+    },
+    {
+      "mine_name": "Balaghat",
+      "year": 2025,
+      "shortfall": 18236.1
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2015,
+      "shortfall": 4326.2
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2016,
+      "shortfall": 4319.8
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2017,
+      "shortfall": 4817.3
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2018,
+      "shortfall": 5563.9
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2019,
+      "shortfall": 5844.400000000001
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2020,
+      "shortfall": 4181.4
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2021,
+      "shortfall": 5792.2
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2022,
+      "shortfall": 5527.3
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2023,
+      "shortfall": 5501.4
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2024,
+      "shortfall": 7422.1
+    },
+    {
+      "mine_name": "Beldongri",
+      "year": 2025,
+      "shortfall": 5948.4
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2015,
+      "shortfall": 3435.0
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2016,
+      "shortfall": 4755.5
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2017,
+      "shortfall": 4451.599999999999
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2018,
+      "shortfall": 5425.4
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2019,
+      "shortfall": 5220.1
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2020,
+      "shortfall": 4093.4
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2021,
+      "shortfall": 4546.8
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2022,
+      "shortfall": 4790.7
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2023,
+      "shortfall": 6360.7
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2024,
+      "shortfall": 6225.6
+    },
+    {
+      "mine_name": "Chikla",
+      "year": 2025,
+      "shortfall": 5847.0
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2015,
+      "shortfall": 2737.7
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2016,
+      "shortfall": 2617.6
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2017,
+      "shortfall": 2330.8
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2018,
+      "shortfall": 2536.4
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2019,
+      "shortfall": 3049.5
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2020,
+      "shortfall": 2377.6
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2021,
+      "shortfall": 2792.8
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2022,
+      "shortfall": 2990.7
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2023,
+      "shortfall": 5068.1
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2024,
+      "shortfall": 3401.1
+    },
+    {
+      "mine_name": "Dongri Buzurg",
+      "year": 2025,
+      "shortfall": 3632.6
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2015,
+      "shortfall": 4076.3
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2016,
+      "shortfall": 4065.2000000000003
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2017,
+      "shortfall": 5666.599999999999
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2018,
+      "shortfall": 4674.1
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2019,
+      "shortfall": 6034.4
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2020,
+      "shortfall": 3869.7999999999997
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2021,
+      "shortfall": 4187.4
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2022,
+      "shortfall": 5424.5
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2023,
+      "shortfall": 4661.1
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2024,
+      "shortfall": 5281.8
+    },
+    {
+      "mine_name": "Gumgaon",
+      "year": 2025,
+      "shortfall": 5458.2
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2015,
+      "shortfall": 5690.9
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2016,
+      "shortfall": 5553.0
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2017,
+      "shortfall": 4284.5
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2018,
+      "shortfall": 5754.6
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2019,
+      "shortfall": 3933.1
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2020,
+      "shortfall": 5344.6
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2021,
+      "shortfall": 4399.3
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2022,
+      "shortfall": 7383.5
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2023,
+      "shortfall": 7487.0
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2024,
+      "shortfall": 7313.2
+    },
+    {
+      "mine_name": "Kandri",
+      "year": 2025,
+      "shortfall": 6721.5
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2015,
+      "shortfall": 4636.3
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2016,
+      "shortfall": 3595.4
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2017,
+      "shortfall": 3947.7999999999997
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2018,
+      "shortfall": 5451.599999999999
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2019,
+      "shortfall": 5204.9
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2020,
+      "shortfall": 4499.1
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2021,
+      "shortfall": 5482.3
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2022,
+      "shortfall": 5134.5
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2023,
+      "shortfall": 5710.2
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2024,
+      "shortfall": 5635.5
+    },
+    {
+      "mine_name": "Munsar",
+      "year": 2025,
+      "shortfall": 6595.8
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2015,
+      "shortfall": 3746.8
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2016,
+      "shortfall": 2904.8
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2017,
+      "shortfall": 4075.2000000000003
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2018,
+      "shortfall": 3884.9
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2019,
+      "shortfall": 3352.0
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2020,
+      "shortfall": 3924.8999999999996
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2021,
+      "shortfall": 4047.0
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2022,
+      "shortfall": 4539.1
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2023,
+      "shortfall": 4520.900000000001
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2024,
+      "shortfall": 5293.0
+    },
+    {
+      "mine_name": "Sitapatore",
+      "year": 2025,
+      "shortfall": 6277.599999999999
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2015,
+      "shortfall": 3770.5
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2016,
+      "shortfall": 5432.6
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2017,
+      "shortfall": 6661.9
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2018,
+      "shortfall": 4923.5
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2019,
+      "shortfall": 5212.1
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2020,
+      "shortfall": 5536.8
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2021,
+      "shortfall": 5135.6
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2022,
+      "shortfall": 6057.2
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2023,
+      "shortfall": 5228.4
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2024,
+      "shortfall": 6299.900000000001
+    },
+    {
+      "mine_name": "Tirodi",
+      "year": 2025,
+      "shortfall": 7896.5
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2015,
+      "shortfall": 7931.5
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2016,
+      "shortfall": 7957.4
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2017,
+      "shortfall": 7360.7
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2018,
+      "shortfall": 7506.7
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2019,
+      "shortfall": 9401.1
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2020,
+      "shortfall": 5520.5
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2021,
+      "shortfall": 7601.900000000001
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2022,
+      "shortfall": 6930.9
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2023,
+      "shortfall": 7840.1
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2024,
+      "shortfall": 7312.099999999999
+    },
+    {
+      "mine_name": "Ukwa",
+      "year": 2025,
+      "shortfall": 9875.1
+    }
+  ]
+}
