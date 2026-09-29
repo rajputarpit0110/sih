@@ -48,7 +48,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, navigate }) => {
         {/* Brand & Project Identity - Strata / Geological Layer Motif */}
         <button
           type="button"
-          aria-label="MINERVA Homepage"
+          aria-label="AyaskVedh Homepage"
           className="flex cursor-pointer items-center space-x-3 group text-left focus-visible:outline-2 focus-visible:outline-[#c26d3a] rounded-lg transition"
           onClick={() => navigate('/')}
         >
@@ -63,7 +63,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, navigate }) => {
           <div>
             <div className="flex items-center space-x-2">
               <span className="text-base font-bold tracking-tight text-slate-900 group-hover:text-[#c26d3a] transition-colors">
-                MINERVA
+                AyaskVedh
               </span>
               <span className="text-[10px] uppercase tracking-wider text-slate-600 font-semibold px-2 py-0.5 rounded-full border border-slate-200 bg-slate-100">
                 MOIL PS 26009

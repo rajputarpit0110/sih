@@ -1,23 +1,27 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Compass, Sliders, ArrowRight, Layers, ShieldCheck, MapPin } from 'lucide-react';
+import { fetchMines } from '../api/production';
 
 interface HomeProps {
   navigate: (path: string) => void;
 }
 
 export const Home: React.FC<HomeProps> = ({ navigate }) => {
-  const moilAssets = [
-    { name: 'Balaghat', district: 'Balaghat, MP', type: 'Underground', depth: 385, target: 22000 },
-    { name: 'Tirodi', district: 'Balaghat, MP', type: 'Opencast', depth: 95, target: 15000 },
-    { name: 'Ukwa', district: 'Balaghat, MP', type: 'Underground', depth: 210, target: 18000 },
-    { name: 'Bharweli', district: 'Balaghat, MP', type: 'Underground', depth: 340, target: 20000 },
-    { name: 'Gumgaon', district: 'Nagpur, MH', type: 'Underground', depth: 260, target: 14000 },
-    { name: 'Kandri', district: 'Nagpur, MH', type: 'Underground', depth: 225, target: 16000 },
-    { name: 'Mansar', district: 'Nagpur, MH', type: 'Opencast/UG', depth: 180, target: 12000 },
-    { name: 'Dongri Buzurg', district: 'Bhandara, MH', type: 'Opencast', depth: 110, target: 25000 },
-    { name: 'Chikla', district: 'Bhandara, MH', type: 'Underground', depth: 290, target: 17000 },
-    { name: 'Sitapatore', district: 'Bhandara, MH', type: 'Underground', depth: 195, target: 11000 },
-  ];
+  const [mines, setMines] = useState<any[]>([]);
+
+  useEffect(() => {
+    fetchMines()
+      .then((data) => {
+        if (Array.isArray(data) && data.length > 0) {
+          setMines(data);
+        }
+      })
+      .catch((err) => console.error('Failed to load real mines data:', err));
+  }, []);
+
+  const totalMonthlyCapacity = mines.length > 0
+    ? Math.round(mines.reduce((acc, m) => acc + (m.avg_target_tonnes || 0), 0))
+    : 100500;
 
   return (
     <div className="min-h-[calc(100vh-56px)] bg-[#f8fafc] text-slate-900">
@@ -32,7 +36,7 @@ export const Home: React.FC<HomeProps> = ({ navigate }) => {
           </div>
 
           <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight text-slate-900 leading-[1.2]">
-            MINERVA
+            AyaskVedh
             <span className="block text-xl sm:text-2xl font-normal text-slate-600 mt-2">
               Manganese exploration & production intelligence
             </span>
@@ -73,7 +77,7 @@ export const Home: React.FC<HomeProps> = ({ navigate }) => {
 
           <div className="rounded-xl border border-slate-200 bg-white p-4.5 shadow-xs space-y-1">
             <span className="text-xs font-medium text-slate-500 block">Baseline Target Capacity</span>
-            <div className="text-2xl font-bold text-[#c26d3a] tracking-tight">184,000 t/mo</div>
+            <div className="text-2xl font-bold text-[#c26d3a] tracking-tight">{totalMonthlyCapacity.toLocaleString()} t/mo</div>
             <span className="text-xs text-slate-500 font-normal">Underground & Opencast mix</span>
           </div>
 
@@ -107,27 +111,29 @@ export const Home: React.FC<HomeProps> = ({ navigate }) => {
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 pt-2">
-            {moilAssets.map((asset) => (
+            {mines.map((asset) => (
               <div
-                key={asset.name}
+                key={asset.mine_id || asset.mine_name}
                 onClick={() => navigate('/production')}
                 className="rounded-lg border border-slate-200/90 bg-white p-3.5 space-y-2 cursor-pointer hover:border-[#c26d3a]/60 hover:shadow-sm hover:-translate-y-0.5 transition-all group"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-sm font-bold text-slate-900 group-hover:text-[#c26d3a] transition-colors">
-                    {asset.name}
+                  <span className="text-sm font-bold text-slate-900 group-hover:text-[#c26d3a] transition-colors truncate">
+                    {asset.mine_name}
                   </span>
-                  <span className="text-[10px] font-semibold text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded">
-                    {asset.type.split('/')[0]}
+                  <span className="text-[10px] font-semibold text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded shrink-0">
+                    {asset.type?.split('&')[0]?.trim()}
                   </span>
                 </div>
                 <div className="text-xs text-slate-500 flex items-center space-x-1.5">
                   <MapPin className="h-3 w-3 text-slate-400 shrink-0" />
-                  <span className="truncate">{asset.district}</span>
+                  <span className="truncate">{asset.district}, {asset.state === 'Madhya Pradesh' ? 'MP' : 'MH'}</span>
                 </div>
                 <div className="flex items-center justify-between text-xs text-slate-600 pt-2 border-t border-slate-100">
-                  <span className="text-slate-500 text-[11px]">{asset.depth}m depth</span>
-                  <span className="text-slate-900 font-bold font-mono text-xs">{asset.target / 1000}k t/mo</span>
+                  <span className="text-slate-500 text-[11px]">{asset.mine_depth_m}m depth</span>
+                  <span className="text-slate-900 font-bold font-mono text-xs">
+                    {Math.round((asset.latest_target || asset.avg_target_tonnes) / 1000)}k t/mo
+                  </span>
                 </div>
               </div>
             ))}

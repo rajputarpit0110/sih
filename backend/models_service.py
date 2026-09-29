@@ -253,32 +253,35 @@ class ModelService:
             use_cols = ["cell_id", "latitude", "longitude", "state", "district"] + [
                 c for c in self.prosp_feature_cols if c not in ["latitude", "longitude", "state"]
             ]
-            # Load 80,000 reference points across MP and MH
-            df_ref = pd.read_csv(raw_prosp_csv, nrows=80000, usecols=[c for c in use_cols])
+            # Load all 622,584 reference points across MP and MH for exact coordinate lookup
+            df_ref = pd.read_csv(raw_prosp_csv, usecols=[c for c in use_cols])
             self.spatial_records = df_ref
             coords = df_ref[["latitude", "longitude"]].values
             self.spatial_tree = cKDTree(coords)
-            print(f"Spatial index built with {len(df_ref)} 1km exploration cells.")
+            print(f"Spatial index built with all {len(df_ref)} real 1km exploration cells.")
 
-        # Preload exploration points for fast map rendering
+        # Preload real exploration target points for fast map rendering
         pred_csv = os.path.join(DATA_DIR, "processed", "prospectivity_predictions.csv")
         self._cached_exploration_points = []
         if os.path.exists(pred_csv):
             try:
                 df_preds = pd.read_csv(pred_csv)
-                high = df_preds[df_preds["prospectivity_level"].isin(["VERY HIGH", "HIGH"])]
+                vhigh = df_preds[df_preds["prospectivity_level"] == "VERY HIGH"]
+                high = df_preds[df_preds["prospectivity_level"] == "HIGH"]
                 med = df_preds[df_preds["prospectivity_level"] == "MEDIUM"]
-                # 1500 high/very high + 500 medium cells
-                n_high = min(len(high), 1500)
+                # 2000 VERY HIGH + 1000 HIGH + 500 MEDIUM real exploration targets
+                n_vhigh = min(len(vhigh), 2000)
+                n_high = min(len(high), 1000)
                 n_med = min(len(med), 500)
                 sampled = pd.concat([
+                    vhigh.sample(n=n_vhigh, random_state=42),
                     high.sample(n=n_high, random_state=42),
                     med.sample(n=n_med, random_state=42)
                 ])
                 self._cached_exploration_points = sampled[[
                     "cell_id", "latitude", "longitude", "state", "prospectivity_prob", "prospectivity_level"
                 ]].to_dict(orient="records")
-                print(f"Pre-cached {len(self._cached_exploration_points)} exploration target cells for map rendering.")
+                print(f"Pre-cached {len(self._cached_exploration_points)} real exploration target cells for map rendering.")
             except Exception as ex:
                 print(f"Warning preloading exploration points: {ex}")
 
@@ -301,7 +304,7 @@ class ModelService:
                 "production_regressor": self.production_regressor is not None,
                 "shortfall_classifier": self.shortfall_classifier is not None,
             },
-            "system": "MOIL-PS26009-DecisionSupport",
+            "system": "AyaskVedh-MOIL-PS26009",
             "version": "2.4.0-industrial",
             "dataset_rows": {
                 "production_history": len(self.production_df) if self.production_df is not None else 0,

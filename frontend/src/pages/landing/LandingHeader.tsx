@@ -38,17 +38,17 @@ export const LandingHeader: React.FC<LandingHeaderProps> = ({ navigate }) => {
           className="flex items-center gap-3 cursor-pointer group"
         >
           <div
-            className="w-8 h-8 rounded-lg flex items-center justify-center text-white font-black text-sm"
+            className="w-8 h-8 rounded-lg flex items-center justify-center text-white font-black text-xs tracking-tighter"
             style={{ background: 'linear-gradient(135deg, #C8590A, #F59E0B)' }}
           >
-            M
+            AV
           </div>
           <div>
             <div
               className="font-extrabold text-[17px] tracking-tight leading-none transition-colors"
               style={{ color: '#0D1B2E' }}
             >
-              MINERVA
+              AyaskVedh
             </div>
             <div className="font-mono text-[8px] tracking-[0.2em] uppercase text-slate-400">
               MOIL · PS 26009
@@ -92,7 +92,7 @@ export const LandingHeader: React.FC<LandingHeaderProps> = ({ navigate }) => {
             boxShadow: '0 4px 16px rgba(200,89,10,0.28)',
           }}
         >
-          Enter application →
+          Explore AyaskVedh →
         </motion.button>
       </div>
     </motion.header>

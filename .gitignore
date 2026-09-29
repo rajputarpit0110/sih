@@ -29,3 +29,6 @@ Thumbs.db
 
 # Large dataset files (>100MB exceeds GitHub limits)
 mlModel/data/raw/manganese_prospectivity_MP_MH_1km.csv
+
+# Video source assets (public copies are in frontend/public/videos/)
+frontend/videos/

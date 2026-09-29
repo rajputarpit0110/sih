@@ -109,7 +109,7 @@ export const FinalCTASection: React.FC<FinalCTASectionProps> = ({ navigate }) =>
           transition={{ duration: 0.7, delay: 0.4 }}
           className="text-slate-500 text-[15px] leading-relaxed max-w-lg mx-auto mb-10"
         >
-          MINERVA bridges satellite remote sensing, geospatial AI, and mine planning
+          AyaskVedh bridges satellite remote sensing, geospatial AI, and mine planning
           into a single decision-support platform for MOIL's manganese operations.
         </motion.p>
 
@@ -121,16 +121,16 @@ export const FinalCTASection: React.FC<FinalCTASectionProps> = ({ navigate }) =>
           className="flex items-center justify-center gap-4 mb-10"
         >
           <div
-            className="w-14 h-14 rounded-2xl flex items-center justify-center text-white text-2xl font-black"
+            className="w-14 h-14 rounded-2xl flex items-center justify-center text-white text-xl font-black tracking-tighter"
             style={{
               background: `linear-gradient(135deg, ${C.copper}, ${C.amber})`,
               boxShadow: `0 8px 28px rgba(200,89,10,0.30)`,
             }}
           >
-            M
+            AV
           </div>
           <div className="text-left">
-            <div className="text-4xl font-black tracking-tight leading-none" style={{ color: C.navy }}>MINERVA</div>
+            <div className="text-4xl font-black tracking-tight leading-none" style={{ color: C.navy }}>AyaskVedh</div>
             <div className="text-xs text-slate-400 font-mono mt-1">Manganese Exploration & Production Intelligence</div>
           </div>
         </motion.div>
@@ -152,7 +152,7 @@ export const FinalCTASection: React.FC<FinalCTASectionProps> = ({ navigate }) =>
               boxShadow: `0 10px 36px rgba(200,89,10,0.30)`,
             }}
           >
-            Enter MINERVA
+            Enter AyaskVedh
             <span className="text-lg">→</span>
           </motion.button>
 

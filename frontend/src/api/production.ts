@@ -41,3 +41,7 @@ export async function runWhatIfSimulation(
 export async function fetchModelPerformance(): Promise<ModelPerformanceData> {
   return request('/api/model-performance');
 }
+
+export async function fetchMines(): Promise<any[]> {
+  return request('/api/mines');
+}

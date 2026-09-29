@@ -15,7 +15,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="AI-Based Manganese Exploration & Production Planning Decision Support System",
+    title="AyaskVedh — AI-Based Manganese Exploration & Production Planning Decision Support System",
     description="Industrial decision-support backend for MOIL SIH 2026 Problem Statement 26009",
     version="2.4.0",
     lifespan=lifespan,
@@ -36,7 +36,7 @@ app.include_router(router)
 @app.get("/")
 def root():
     return {
-        "service": "MOIL Manganese Decision Support System API",
+        "service": "AyaskVedh — MOIL Manganese Decision Support System API",
         "problem_statement": "SIH 2026 PS 26009",
         "docs": "/docs",
         "status": service.get_health()["status"],

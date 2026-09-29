@@ -43,7 +43,7 @@ export const ProductionSection: React.FC<ProductionSectionProps> = ({ navigate }
             <br />only the beginning
           </h2>
           <p className="text-slate-500 text-[15px] leading-relaxed">
-            MINERVA extends beyond prospectivity into operational mine planning — evaluating whether
+            AyaskVedh extends beyond prospectivity into operational mine planning — evaluating whether
             monthly production targets are achievable under current site conditions.
           </p>
         </motion.div>

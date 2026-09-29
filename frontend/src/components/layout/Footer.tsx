@@ -5,7 +5,7 @@ export const Footer: React.FC = () => {
     <footer className="border-t border-slate-200 bg-white py-4 px-6 text-xs text-slate-500">
       <div className="mx-auto flex max-w-7xl flex-col sm:flex-row items-center justify-between gap-2">
         <div className="flex items-center space-x-2.5">
-          <span className="text-slate-800 font-semibold">MINERVA</span>
+          <span className="text-slate-800 font-semibold">AyaskVedh</span>
           <span>•</span>
           <span>MOIL Limited</span>
           <span>•</span>

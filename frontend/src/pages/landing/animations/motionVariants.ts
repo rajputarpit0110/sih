@@ -1,4 +1,4 @@
-// Shared framer-motion animation variants for the MINERVA landing page
+// Shared framer-motion animation variants for the AyaskVedh landing page
 import type { Variants } from 'framer-motion';
 
 export const fadeUp: Variants = {

@@ -1,10 +1,82 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import gsap from 'gsap';
 import { motion } from 'framer-motion';
 
 interface HeroSectionProps {
   navigate: (path: string) => void;
 }
+
+// Background videos playlist from frontend/videos
+const HERO_VIDEOS = [
+  {
+    src: '/videos/video_exploration.mp4',
+    title: 'AI Satellite Exploration & Spectral Mineral Mapping',
+  },
+  {
+    src: '/videos/video_underground.mp4',
+    title: 'Subsurface 3D Ore Horizon Scanning',
+  },
+];
+
+const BackgroundVideoPlaylist: React.FC = () => {
+  const [activeIdx, setActiveIdx] = useState(0);
+  const videoRefs = [
+    useRef<HTMLVideoElement>(null),
+    useRef<HTMLVideoElement>(null),
+  ];
+
+  const handleEnded = (index: number) => {
+    const nextIndex = (index + 1) % HERO_VIDEOS.length;
+    setActiveIdx(nextIndex);
+    const nextVideo = videoRefs[nextIndex].current;
+    if (nextVideo) {
+      nextVideo.currentTime = 0;
+      nextVideo.play().catch(() => {});
+    }
+  };
+
+  useEffect(() => {
+    const currentVideo = videoRefs[activeIdx].current;
+    if (currentVideo) {
+      currentVideo.play().catch(() => {});
+    }
+  }, [activeIdx]);
+
+  return (
+    <div className="absolute inset-0 pointer-events-none overflow-hidden z-0 select-none">
+      {HERO_VIDEOS.map((video, idx) => {
+        const isActive = idx === activeIdx;
+        return (
+          <video
+            key={video.src}
+            ref={videoRefs[idx]}
+            src={video.src}
+            muted
+            autoPlay={idx === 0}
+            playsInline
+            preload="auto"
+            onEnded={() => handleEnded(idx)}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${
+              isActive ? 'opacity-35' : 'opacity-0'
+            }`}
+            style={{
+              filter: 'contrast(1.08) brightness(0.96) saturate(1.1)',
+            }}
+          />
+        );
+      })}
+
+      {/* Gentle executive gradient overlay ensuring pristine contrast */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background:
+            'radial-gradient(ellipse 95% 85% at 50% 40%, rgba(248, 250, 252, 0.42) 0%, rgba(248, 250, 252, 0.82) 100%)',
+        }}
+      />
+    </div>
+  );
+};
 
 // Light dot grid
 const DotGrid: React.FC = () => (
@@ -66,8 +138,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ navigate }) => {
   const stats = [
     { label: 'Accuracy', value: '88.1%', sub: 'Test set' },
     { label: 'F1 Score',  value: '0.86',  sub: 'Prospective' },
-    { label: 'Features',  value: '20+',   sub: 'Top predictors' },
-    { label: 'Samples',   value: '30K+',  sub: 'Training data' },
+    { label: 'Features',  value: '47',    sub: 'Multi-sensor' },
+    { label: 'Coverage',  value: '6.2L+', sub: '1km² grid cells' },
   ];
 
   return (
@@ -87,6 +159,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ navigate }) => {
           background: 'linear-gradient(135deg, #F8FAFC 0%, #EDF4FB 45%, #FAF6F2 100%)',
         }}
       >
+        {/* Background Video Playlist — Infinite Loop with Low Opacity */}
+        <BackgroundVideoPlaylist />
+
         {/* Dot grid */}
         <div className="absolute inset-0 pointer-events-none">
           <DotGrid />
@@ -184,7 +259,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ navigate }) => {
                     boxShadow: '0 8px 28px rgba(200,89,10,0.30)',
                   }}
                 >
-                  Explore MINERVA →
+                  Explore AyaskVedh →
                 </motion.button>
 
                 <motion.button
@@ -228,7 +303,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ navigate }) => {
               >
                 <img
                   src="/earth_india.jpg"
-                  alt="Indian subcontinent viewed from space — Earth observation context for MINERVA"
+                  alt="Indian subcontinent viewed from space — Earth observation context for AyaskVedh"
                   className="w-full h-full object-cover"
                   draggable={false}
                 />
@@ -271,7 +346,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ navigate }) => {
                 {/* Bottom caption */}
                 <div className="absolute bottom-3 left-4">
                   <p className="font-mono text-[8px] uppercase tracking-widest" style={{ color: 'rgba(255,255,255,0.35)' }}>
-                    Artistic representation · Not a MINERVA output
+                    Artistic representation · Not an AyaskVedh output
                   </p>
                 </div>
               </div>
