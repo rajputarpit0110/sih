@@ -243,17 +243,24 @@ class ModelService:
             self.production_df = pd.read_csv(prod_csv)
             print(f"Loaded production records: {len(self.production_df)}")
 
-        # Build spatial KD-tree from raw 1km prospectivity dataset
+        # Build spatial KD-tree from compressed reference or raw 1km prospectivity dataset
+        self.prosp_feature_cols = list(self.prospectivity_model.feature_names_in_)
+        use_cols = ["cell_id", "latitude", "longitude", "state", "district"] + [
+            c for c in self.prosp_feature_cols if c not in ["latitude", "longitude", "state"]
+        ]
+
+        gz_prosp_csv = os.path.join(DATA_DIR, "processed", "spatial_reference.csv.gz")
         raw_prosp_csv = os.path.join(DATA_DIR, "raw", "manganese_prospectivity_MP_MH_1km.csv")
-        if os.path.exists(raw_prosp_csv):
+
+        if os.path.exists(gz_prosp_csv):
+            print("Indexing spatial reference dataset from compressed production reference...")
+            df_ref = pd.read_csv(gz_prosp_csv, usecols=[c for c in use_cols])
+            self.spatial_records = df_ref
+            coords = df_ref[["latitude", "longitude"]].values
+            self.spatial_tree = cKDTree(coords)
+            print(f"Spatial index built with {len(df_ref)} exploration reference cells.")
+        elif os.path.exists(raw_prosp_csv):
             print("Indexing spatial reference dataset for coordinate feature enrichment...")
-            # Load a dense representation (first 75,000 cells covering all high/medium/low exploration blocks)
-            # which allows instantaneous KDTree lookup
-            self.prosp_feature_cols = list(self.prospectivity_model.feature_names_in_)
-            use_cols = ["cell_id", "latitude", "longitude", "state", "district"] + [
-                c for c in self.prosp_feature_cols if c not in ["latitude", "longitude", "state"]
-            ]
-            # Load all 622,584 reference points across MP and MH for exact coordinate lookup
             df_ref = pd.read_csv(raw_prosp_csv, usecols=[c for c in use_cols])
             self.spatial_records = df_ref
             coords = df_ref[["latitude", "longitude"]].values
